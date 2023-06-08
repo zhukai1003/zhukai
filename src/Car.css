@@ -1,0 +1,32 @@
+.car_list_item {
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+.car_title {
+    width: 60%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.car_price {
+    width: 50px;
+    position: absolute;
+    left: 65%;
+}
+
+.car_button {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.car_shopping{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    cursor: pointer;
+}
